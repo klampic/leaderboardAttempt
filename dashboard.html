@@ -15,6 +15,11 @@
             grid-template-columns: repeat(4, 1fr);
             gap: 16px;
             justify-items: center;
+            max-width: 1200px;     /* Limits total grid width */
+            margin: 0 auto;        /* Centers it horizontally */
+            width: 100%;           /* Allow scaling */
+            box-sizing: border-box;
+            padding: 0 16px;
         }
 
         .video-grid iframe {
